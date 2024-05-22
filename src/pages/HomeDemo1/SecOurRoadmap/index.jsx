@@ -30,7 +30,7 @@ const SecOurRoadmap = ({ data }) => {
           <div className="row gap-12 justify-between px-8">
             <div className="col-lg-5 col-md-5 col-sm-11 rounded-lg p-4 text-sm text-gray-300">
               <img
-                src="/assets/images/box3.png"
+                src="/assets/images/frame.png"
                 className="w-full h-full absolute top-0 left-0"
                 alt=""
               />
@@ -53,13 +53,13 @@ const SecOurRoadmap = ({ data }) => {
             </div>
             <div className="col-lg-5 col-md-5 col-sm-11 rounded-lg p-4 text-sm text-gray-300">
               <img
-                src="/assets/images/box3.png"
+                src="/assets/images/frame.png"
                 className="w-full h-full absolute top-0 left-0"
                 alt=""
               />
               <div className="w-full h-40 relative">
                 <img
-                  src="/assets/images/box1.png"
+                  src="/assets/images/box2.png"
                   className="w-full h-full object-contain mx-auto"
                   alt=""
                 />
@@ -73,13 +73,13 @@ const SecOurRoadmap = ({ data }) => {
             </div>
             <div className="col-lg-5 col-md-5 col-sm-11 rounded-lg p-4 text-sm text-gray-300">
               <img
-                src="/assets/images/box3.png"
+                src="/assets/images/frame.png"
                 className="w-full h-full absolute top-0 left-0"
                 alt=""
               />
               <div className="h-40 relative">
                 <img
-                  src="/assets/images/box1.png"
+                  src="/assets/images/box3.png"
                   className="w-full h-full object-contain mx-auto"
                   alt=""
                 />
@@ -93,13 +93,13 @@ const SecOurRoadmap = ({ data }) => {
             </div>
             <div className="col-lg-5 col-md-5 col-sm-11 rounded-lg p-4 text-sm text-gray-300">
               <img
-                src="/assets/images/box3.png"
+                src="/assets/images/frame.png"
                 className="w-full h-full absolute top-0 left-0"
                 alt=""
               />
               <div className="h-40 relative">
                 <img
-                  src="/assets/images/box1.png"
+                  src="/assets/images/box4.png"
                   className="w-full h-full object-contain mx-auto"
                   alt=""
                 />
