@@ -40,12 +40,12 @@ const Footer = () => {
           <div className="lg:w-1/2  w-full px-4">
             <nav className="list-none mb-10">
               <li className="my-1">
-                <a href="/" className="text-gray-200 hover:text-gray-300">
+                <a href="https://twitter.com/COTRWAA" className="text-gray-200 hover:text-gray-300">
                   Twitter
                 </a>
               </li>
               <li className="my-1">
-                <a href="/" className="text-gray-200 hover:text-gray-300">
+                <a href="https://t.me/+r_3Vkn8YeCZjOWNl" className="text-gray-200 hover:text-gray-300">
                   Telegram
                 </a>
               </li>
