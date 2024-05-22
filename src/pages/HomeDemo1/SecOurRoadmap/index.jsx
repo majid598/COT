@@ -28,15 +28,20 @@ const SecOurRoadmap = ({ data }) => {
       >
         <div className="container">
           <div className="row gap-12 justify-between px-8">
-            <div className="col-lg-5 col-md-5 col-sm-11 bg-[#DE357A] rounded-lg p-4 text-sm text-gray-300">
-              <div className="h-40">
+            <div className="col-lg-5 col-md-5 col-sm-11 rounded-lg p-4 text-sm text-gray-300">
+              <img
+                src="/assets/images/box3.png"
+                className="w-full h-full absolute top-0 left-0"
+                alt=""
+              />
+              <div className="h-40 relative">
                 <img
                   src="/assets/images/box1.png"
                   className="w-full h-full object-contain mx-auto"
                   alt=""
                 />
               </div>
-              <p className="text-center tracking-tighter">
+              <p className="text-center tracking-tighter relative text-[#DE357A]">
                 Innovatively merging COT with Hong Kong-listed company bonds via
                 STO, it offers a convenient way to engage in both cryptocurrency
                 and the appreciative opportunities of Hong Kong-listed company
@@ -46,45 +51,60 @@ const SecOurRoadmap = ({ data }) => {
                 management.
               </p>
             </div>
-            <div className="col-lg-5 col-md-5 col-sm-11 bg-[#DE357A] rounded-lg p-4 text-sm text-gray-300">
-              <div className="w-full h-40">
-                <img
-                  src="/assets/images/box2.png"
-                  className="w-full h-full object-contain mx-auto"
-                  alt=""
-                />
-              </div>
-              <p className="text-center">
-                COT Destructive Mechanism gives you access to actual digital
-                asset STO, as well as a chance to win raffle prizes. This
-                incentive model can attract more investors to participate while
-                bringing vitality to the project&apos;s ecosystem. management.
-              </p>
-            </div>
-            <div className="col-lg-5 col-md-5 col-sm-11 bg-[#DE357A] rounded-lg p-4 text-sm text-gray-300">
-              <div className="h-40">
-                <img
-                  src="/assets/images/box3.png"
-                  className="w-full h-full object-contain mx-auto"
-                  alt=""
-                />
-              </div>
-              <p className="text-center">
-                At COT, Our success is deeply rooted in strong, strategic
-                partnerships. With a history of enduring collaborations and a
-                commitment to purpose-driven alliances, we&apos;ve consistently
-                delivered results that speak to the efficacy of our approach.
-              </p>
-            </div>
-            <div className="col-lg-5 col-md-5 col-sm-11 bg-[#DE357A] rounded-lg p-4 text-sm text-gray-300">
-              <div className="h-40">
+            <div className="col-lg-5 col-md-5 col-sm-11 rounded-lg p-4 text-sm text-gray-300">
+              <img
+                src="/assets/images/box3.png"
+                className="w-full h-full absolute top-0 left-0"
+                alt=""
+              />
+              <div className="w-full h-40 relative">
                 <img
                   src="/assets/images/box1.png"
                   className="w-full h-full object-contain mx-auto"
                   alt=""
                 />
               </div>
-              <p className="text-center">
+              <p className="text-center relative text-[#DE357A]">
+                COT Destructive Mechanism gives you access to actual digital
+                asset STO, as well as a chance to win raffle prizes. This
+                incentive model can attract more investors to participate while
+                bringing vitality to the project&apos;s ecosystem. management.
+              </p>
+            </div>
+            <div className="col-lg-5 col-md-5 col-sm-11 rounded-lg p-4 text-sm text-gray-300">
+              <img
+                src="/assets/images/box3.png"
+                className="w-full h-full absolute top-0 left-0"
+                alt=""
+              />
+              <div className="h-40 relative">
+                <img
+                  src="/assets/images/box1.png"
+                  className="w-full h-full object-contain mx-auto"
+                  alt=""
+                />
+              </div>
+              <p className="text-center relative text-[#DE357A]">
+                At COT, Our success is deeply rooted in strong, strategic
+                partnerships. With a history of enduring collaborations and a
+                commitment to purpose-driven alliances, we&apos;ve consistently
+                delivered results that speak to the efficacy of our approach.
+              </p>
+            </div>
+            <div className="col-lg-5 col-md-5 col-sm-11 rounded-lg p-4 text-sm text-gray-300">
+              <img
+                src="/assets/images/box3.png"
+                className="w-full h-full absolute top-0 left-0"
+                alt=""
+              />
+              <div className="h-40 relative">
+                <img
+                  src="/assets/images/box1.png"
+                  className="w-full h-full object-contain mx-auto"
+                  alt=""
+                />
+              </div>
+              <p className="text-center relative text-[#DE357A]">
                 Become a Part of Our Community and Enjoy the Benefits! We are
                 constructing a community that provides a wide range of exciting
                 advantages. Our services include swapping, trading, staking, and

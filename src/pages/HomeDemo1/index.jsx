@@ -29,7 +29,6 @@ let HomeDemo1 = () => {
           ></video>
         </div>
         <SecWelcomeArea />
-
         <SecTrust data={SingleCoolFact} />
         <SecOurRoadmap data={timelineInfo} />
         <SecOurFeatures data={ServiceBlock} img={"/assets/images/contact.png"} />
