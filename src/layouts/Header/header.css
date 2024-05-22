@@ -1,96 +1,118 @@
 .header-area {
-    position: fixed;
-    z-index: 5000;
-    top: 0;
-    left: 0;
-    width: 100%;
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  position: fixed;
+  z-index: 5000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.classy-navbar-toggler .navbarToggler span{
-    background-color: #f2f4f8 !important;
+.classy-navbar-toggler .navbarToggler span {
+  background-color: #f2f4f8 !important;
+}
+.classy-nav-container.sticky .navbarToggler span {
+  background-color: #de357a !important;
 }
 
 .header-area.sticky {
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-    background-color: #DE357A;
-    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
-    border-bottom: none;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  background-color: white;
+  color: #de357a !important;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  border-bottom: none;
 }
 
 .dark.classy-nav-container {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .classy-navbar {
-    height: 90px;
-    padding: 0;
+  height: 90px;
+  padding: 0;
 }
 
 .classynav ul li a {
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
 }
 
-.classynav ul li a:hover{
-    color: #fff;
+.classynav ul li a:hover {
+  color: #fff;
 }
 
 .classynav ul li .megamenu li a {
-    font-size: 80%;
+  font-size: 80%;
 }
 
-.btn:not(:disabled):not(.disabled){
-    cursor: pointer;
-    color: #fff;
-    border: 2px solid #7450fe;
-    border-radius: 100px;
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  color: #fff;
+  border: 2px solid #7450fe;
+  border-radius: 100px;
+}
+.classy-nav-container.sticky .btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  color: #de357a;
+  border: 2px solid #7450fe;
+  border-radius: 100px;
+}
+.classy-nav-container.sticky .btn:not(:disabled):not(.disabled):hover {
+  color: #fff;
 }
 
-#nav{
-    margin-bottom: 0;
-    width: 100%;
+#nav {
+  margin-bottom: 0;
+  width: 100%;
 }
 
-.classy-nav-container{
-    background-color: transparent !important ;
-    transition: all .7s;
-    padding: 10px 0;
+.classy-nav-container {
+  background-color: transparent !important ;
+  transition: all 0.7s;
+  padding: 10px 0;
 }
 
-.classy-nav-container.sticky{
-    background-color: #bc4a77 !important;
+.classy-nav-container.sticky {
+  background-color: white !important;
+  color: #de357a !important;
 }
 
-@media(max-width: 991px) {
-    #nav{
-        background-color: #DE357A !important;
-    }
-    .classy-navbar .classy-menu{
-        background-color: #DE357A !important;
-    }
-    .classynav>ul>li>a{
-        background-color: transparent !important;
-        border-bottom: 1px solid rgb(93 87 87 / 50%);
-    }
+.classy-nav-container.sticky .classynav ul li a {
+  color: #de357a !important;
+}
 
-    .breakpoint-off .classynav{
-        flex-direction: column !important;
-    }
+@media (max-width: 991px) {
+  #nav {
+    background-color: #de357a !important;
+  }
+  .classy-navbar .classy-menu {
+    background-color: #de357a !important;
+  }
+  .classy-nav-container.sticky .classynav ul li a {
+    color: white !important;
+  }
+  .classynav > ul > li > a {
+    background-color: transparent !important;
+    border-bottom: 1px solid rgb(93 87 87 / 50%);
+    color: white !important;
+  }
 
-    .classycloseIcon .cross-wrap span.top,
-    .classycloseIcon .cross-wrap span.bottom{
-        background-color: #fff !important;
-    }
+  .breakpoint-off .classynav {
+    flex-direction: column !important;
+  }
 
-    .classy-menu .login-btn{
-        margin-right: 150px ;
-    }
+  .classycloseIcon .cross-wrap span.top,
+  .classycloseIcon .cross-wrap span.bottom {
+    background-color: #fff !important;
+  }
 
-    .classynav>ul>li>a{
-        border-bottom: 1px solid rgba(255,255,255,.05) !important;
-    }
+  .classy-menu .login-btn {
+    margin-right: 150px;
+  }
+
+  .classynav > ul > li > a {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+  }
 }

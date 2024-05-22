@@ -1,16 +1,16 @@
 import "./style/HomeDemo1.scss";
 
 import {
+  ServiceBlock,
   SingleCoolFact,
   timelineInfo,
-  ServiceBlock,
 } from "../../data/data-containers/data-HomeDemo1.js";
 
 import Footer from "../../layouts/FooterPages";
 import Header from "../../layouts/Header";
 
-import SecOurRoadmap from "./SecOurRoadmap";
 import SecOurFeatures from "./SecOurFeatures";
+import SecOurRoadmap from "./SecOurRoadmap";
 import SecTrust from "./SecTrust";
 import SecWelcomeArea from "./SecWelcomeArea";
 
@@ -21,7 +21,7 @@ let HomeDemo1 = () => {
       <div className="HomeDemo1">
         <div className="w-full h-screen fixed top-0 left-0">
           <video
-            src="/assets/videos/bg.mp4"
+            src="/assets/videos/video1.mp4"
             autoPlay
             loop
             muted
@@ -31,7 +31,7 @@ let HomeDemo1 = () => {
         <SecWelcomeArea />
         <SecTrust data={SingleCoolFact} />
         <SecOurRoadmap data={timelineInfo} />
-        <SecOurFeatures data={ServiceBlock} img={"/assets/images/contact.png"} />
+        <SecOurFeatures data={ServiceBlock} img={"/assets/images/cot-coin.png"} />
       </div>
       <Footer />
     </>

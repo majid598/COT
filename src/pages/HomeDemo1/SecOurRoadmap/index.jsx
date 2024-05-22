@@ -7,17 +7,12 @@ const SecOurRoadmap = ({ data }) => {
         <SectionHeading title={"WHAT IS C.O.T"} />
         <div className="xl:!px-32 lg:!px-16 md:!px-12 !px-3">
           <p className="w-3/4 mx-auto text-center relative z-10">
-            COT, short for Coffee Or Tea, is an innovative and promising
-            financial product. Supported by a robust background in Real World
-            Assets (RWA), COT provides investors with enhanced reliability.
-            Through the tokenization of Real World Assets (RWA), COT legally
-            confirms ownership for holders of the underlying assets. COT
-            collaborates extensively with listed companies, leveraging Security
-            Token Offerings (STO) to seamlessly integrate with traditional
-            financial markets, offering investors more opportunities and
-            choices. In the future, COT plans to issue tokens in collaboration
-            with D3X and TimeX, further expanding its influence in both the
-            cryptocurrency and traditional financial markets."
+            COT (Coffee Or Tea) is a pioneering financial product backed by Real
+            World Assets (RWA), ensuring enhanced reliability. It tokenizes
+            RWAs, legally confirming ownership, and collaborates with listed
+            companies through STOs, bridging traditional and crypto markets.
+            Future plans involve partnerships with D3X and TimeX for wider
+            market influence.
           </p>
         </div>
       </section>
@@ -27,90 +22,8 @@ const SecOurRoadmap = ({ data }) => {
         id="roadmap"
       >
         <div className="container">
-          <div className="row gap-12 justify-between px-8">
-            <div className="col-lg-5 col-md-5 col-sm-11 rounded-lg p-4 text-sm text-gray-300">
-              <img
-                src="/assets/images/frame.png"
-                className="w-full h-full absolute top-0 left-0"
-                alt=""
-              />
-              <div className="h-40 relative">
-                <img
-                  src="/assets/images/box1.png"
-                  className="w-full h-full object-contain mx-auto"
-                  alt=""
-                />
-              </div>
-              <p className="text-center tracking-tighter relative text-[#DE357A]">
-                Innovatively merging COT with Hong Kong-listed company bonds via
-                STO, it offers a convenient way to engage in both cryptocurrency
-                and the appreciative opportunities of Hong Kong-listed company
-                STOs. This unique strategy aims to reduce risks and enable
-                diversified asset allocation, providing investors with broader
-                market participation opportunities for comprehensive portfolio
-                management.
-              </p>
-            </div>
-            <div className="col-lg-5 col-md-5 col-sm-11 rounded-lg p-4 text-sm text-gray-300">
-              <img
-                src="/assets/images/frame.png"
-                className="w-full h-full absolute top-0 left-0"
-                alt=""
-              />
-              <div className="w-full h-40 relative">
-                <img
-                  src="/assets/images/box2.png"
-                  className="w-full h-full object-contain mx-auto"
-                  alt=""
-                />
-              </div>
-              <p className="text-center relative text-[#DE357A]">
-                COT Destructive Mechanism gives you access to actual digital
-                asset STO, as well as a chance to win raffle prizes. This
-                incentive model can attract more investors to participate while
-                bringing vitality to the project&apos;s ecosystem. management.
-              </p>
-            </div>
-            <div className="col-lg-5 col-md-5 col-sm-11 rounded-lg p-4 text-sm text-gray-300">
-              <img
-                src="/assets/images/frame.png"
-                className="w-full h-full absolute top-0 left-0"
-                alt=""
-              />
-              <div className="h-40 relative">
-                <img
-                  src="/assets/images/box3.png"
-                  className="w-full h-full object-contain mx-auto"
-                  alt=""
-                />
-              </div>
-              <p className="text-center relative text-[#DE357A]">
-                At COT, Our success is deeply rooted in strong, strategic
-                partnerships. With a history of enduring collaborations and a
-                commitment to purpose-driven alliances, we&apos;ve consistently
-                delivered results that speak to the efficacy of our approach.
-              </p>
-            </div>
-            <div className="col-lg-5 col-md-5 col-sm-11 rounded-lg p-4 text-sm text-gray-300">
-              <img
-                src="/assets/images/frame.png"
-                className="w-full h-full absolute top-0 left-0"
-                alt=""
-              />
-              <div className="h-40 relative">
-                <img
-                  src="/assets/images/box4.png"
-                  className="w-full h-full object-contain mx-auto"
-                  alt=""
-                />
-              </div>
-              <p className="text-center relative text-[#DE357A]">
-                Become a Part of Our Community and Enjoy the Benefits! We are
-                constructing a community that provides a wide range of exciting
-                advantages. Our services include swapping, trading, staking, and
-                opportunities to expand your network and net worth.
-              </p>
-            </div>
+          <div className="px-8">
+            <img src="/assets/images/image.png" alt="" />
           </div>
           <div className="mt-12 lg:px-32 md:px-24 px-10 py-8 text-white text-center">
             <h1 className="lg:text-4xl md:text-3xl text-2xl">

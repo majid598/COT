@@ -1,6 +1,4 @@
-
 import "./footer.css";
-
 
 const Footer = () => {
   return (
@@ -14,32 +12,27 @@ const Footer = () => {
             <img alt="" src="/assets/images/COT-01.png" />{" "}
           </a>
         </div>
-        <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+        <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:!text-left !text-center">
           <div className="lg:w-1/2 w-full px-4">
             <nav className="list-none mb-10">
               <li className="my-1">
                 <a href="/" className="text-gray-200 hover:text-gray-300">
-                  Company Link
+                  Home
                 </a>
               </li>
               <li className="my-1">
                 <a href="/" className="text-gray-200 hover:text-gray-300">
-                  Products
+                  IAO Portal
                 </a>
               </li>
               <li className="my-1">
                 <a href="/" className="text-gray-200 hover:text-gray-300">
-                  C.O.T.
+                  DEX{" "}
                 </a>
               </li>
               <li className="my-1">
                 <a href="/" className="text-gray-200 hover:text-gray-300">
-                  Community Guidelines
-                </a>
-              </li>
-              <li className="my-1">
-                <a href="/" className="text-gray-200 hover:text-gray-300">
-                  Wallet
+                  Asset Owners' Portal
                 </a>
               </li>
             </nav>
@@ -48,22 +41,12 @@ const Footer = () => {
             <nav className="list-none mb-10">
               <li className="my-1">
                 <a href="/" className="text-gray-200 hover:text-gray-300">
-                  Legal
+                  Twitter
                 </a>
               </li>
               <li className="my-1">
                 <a href="/" className="text-gray-200 hover:text-gray-300">
-                  About US
-                </a>
-              </li>
-              <li className="my-1">
-                <a href="/" className="text-gray-200 hover:text-gray-300">
-                  Contact Us
-                </a>
-              </li>
-              <li className="my-1">
-                <a href="/" className="text-gray-200 hover:text-gray-300">
-                  Term of Use
+                  Telegram
                 </a>
               </li>
             </nav>

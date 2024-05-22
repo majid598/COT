@@ -7,7 +7,7 @@ const SecTrust = ({ data }) => {
         text={"a Revolutionary Financial Product"}
         title={"Introducing C.O.T (COFFEE OR TEA)"}
       />
-        <div className="w-40 mx-auto -mt-10 mb-10">
+        <div className="w-80 mx-auto -mt-10 mb-10">
           <img src="/assets/images/icon.png" alt="" />
         </div>
       <div className="xl:!px-32 lg:!px-16 md:!px-12 !px-3">

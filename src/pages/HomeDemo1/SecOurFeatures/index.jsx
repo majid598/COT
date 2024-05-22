@@ -1,5 +1,4 @@
 import SectionHeading from "../../../components/SectionHeading";
-import ServiceBlock from "./ServiceBlock";
 
 const SecOurFeatures = ({ data, img, Rings }) => {
   return (
@@ -15,14 +14,7 @@ const SecOurFeatures = ({ data, img, Rings }) => {
       <div className="container-fluid">
         <div className="row">
           <div className="services-column col-lg-5 col-lg-offset-1 col-md-10 offset-md-1 col-xs-10 offset-xs-1">
-            {data &&
-              data.map((item, key) => (
-                <ServiceBlock
-                  key={key}
-                  classIco={item.classIco}
-                  title={item.title}
-                />
-              ))}
+            <img src="/assets/images/count.png" alt="" />
           </div>
           <div className="service-img-wrapper flex justify-center col-lg-6 col-md-12 col-sm-12">
             <div className="">
@@ -31,7 +23,7 @@ const SecOurFeatures = ({ data, img, Rings }) => {
                 loop
                 muted
                 src={img}
-                className="w-full h-full object-cover"
+                className="w-4/5 mx-auto object-contain"
                 alt=""
               />
             </div>
