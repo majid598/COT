@@ -22,7 +22,7 @@ const SecTrust = ({ data }) => {
         </p>
 
         <div className="mx-auto flex gap-4 justify-center text-center dream-btn-group mt-8">
-          {/* <a
+          <a
             href="/"
             className="text-white mr-4 lg:!px-8 lg:!py-3 md:!px-4 md:!py-3 !px-4 !py-2 !bg-[#DE357A] !border-[#DE357A] block w-max lg:rounded-md md:rounded-md rounded-sm transition-all duration-200 hover:scale-95"
           >
@@ -33,13 +33,6 @@ const SecTrust = ({ data }) => {
             className="text-white mr-4 lg:!px-8 lg:!py-3 md:!px-4 md:!py-3 !px-4 !py-2 !bg-[#DE357A] !border-[#DE357A] block w-max lg:rounded-md md:rounded-md rounded-sm transition-all duration-200 hover:scale-95"
           >
             Read More
-          </a>
-          */}
-          <a
-            href="/"
-            className="text-white mr-4 lg:!px-8 lg:!py-3 md:!px-4 md:!py-3 !px-4 !py-2 !bg-[#DE357A] !border-[#DE357A] block w-max lg:rounded-md md:rounded-md rounded-sm transition-all duration-200 hover:scale-95"
-          >
-            Coming soon
           </a>
         </div>
       </div>

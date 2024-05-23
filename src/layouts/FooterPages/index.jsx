@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:!text-left !text-center">
           <div className="lg:w-1/2 w-full px-4">
             <nav className="list-none mb-10">
-              {/* <li className="my-1">
+              <li className="my-1">
                 <a href="/" className="text-gray-200 hover:text-gray-300">
                   Home
                 </a>
@@ -33,11 +33,6 @@ const Footer = () => {
               <li className="my-1">
                 <a href="/" className="text-gray-200 hover:text-gray-300">
                   Asset Owners' Portal
-                </a>
-              </li> */}
-              <li className="my-1">
-                <a href="/" className="text-gray-200 hover:text-gray-300">
-                  Coming soon
                 </a>
               </li>
             </nav>
