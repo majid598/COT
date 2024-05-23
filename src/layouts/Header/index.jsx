@@ -50,7 +50,7 @@ const Header = () => {
                 </div>
                 <div className="classynav">
                   <ul id="nav">
-                    <li>
+                    {/* <li>
                       <a onClick={moveSmooth} href="#home">
                         Home
                       </a>
@@ -69,6 +69,11 @@ const Header = () => {
                       <a onClick={moveSmooth} href="#roadmap">
                       Asset Owners' Portal
                       </a>
+                    </li> */}
+                    <li>
+                      <a href="#" className="lg:mr-40 mr-20">
+                      Coming soon 
+                      </a>
                     </li>
                     <li>
                       <a href="https://twitter.com/COTRWAA">
@@ -81,8 +86,11 @@ const Header = () => {
                       </a>
                     </li>
                   </ul>
-                  <a href="#" className="btn login-btn ml-50">
+                  {/* <a href="#" className="btn login-btn ml-50">
                     Log in
+                  </a> */}
+                  <a href="#" className="btn login-btn ml-10 lg:!pr-10 md:pr-8">
+                    Coming soon
                   </a>
                 </div>
               </div>

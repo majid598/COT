@@ -7,9 +7,9 @@ const SecTrust = ({ data }) => {
         text={"a Revolutionary Financial Product"}
         title={"Introducing C.O.T (COFFEE OR TEA)"}
       />
-        <div className="w-80 mx-auto -mt-10 mb-10">
-          <img src="/assets/images/icon.png" alt="" />
-        </div>
+      <div className="w-80 mx-auto -mt-10 mb-10">
+        <img src="/assets/images/icon.png" alt="" />
+      </div>
       <div className="xl:!px-32 lg:!px-16 md:!px-12 !px-3">
         <p className="w-3/4 mx-auto text-center">
           In finance, the convergence of WEB 2.0 and WEB 3.0 marks a unique
@@ -22,7 +22,7 @@ const SecTrust = ({ data }) => {
         </p>
 
         <div className="mx-auto flex gap-4 justify-center text-center dream-btn-group mt-8">
-          <a
+          {/* <a
             href="/"
             className="text-white mr-4 lg:!px-8 lg:!py-3 md:!px-4 md:!py-3 !px-4 !py-2 !bg-[#DE357A] !border-[#DE357A] block w-max lg:rounded-md md:rounded-md rounded-sm transition-all duration-200 hover:scale-95"
           >
@@ -33,6 +33,13 @@ const SecTrust = ({ data }) => {
             className="text-white mr-4 lg:!px-8 lg:!py-3 md:!px-4 md:!py-3 !px-4 !py-2 !bg-[#DE357A] !border-[#DE357A] block w-max lg:rounded-md md:rounded-md rounded-sm transition-all duration-200 hover:scale-95"
           >
             Read More
+          </a>
+          */}
+          <a
+            href="/"
+            className="text-white mr-4 lg:!px-8 lg:!py-3 md:!px-4 md:!py-3 !px-4 !py-2 !bg-[#DE357A] !border-[#DE357A] block w-max lg:rounded-md md:rounded-md rounded-sm transition-all duration-200 hover:scale-95"
+          >
+            Coming soon
           </a>
         </div>
       </div>
