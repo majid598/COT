@@ -14,14 +14,11 @@ const SecOurFeatures = ({ data, img, Rings }) => {
       <div className="container-fluid">
         <div className="row items-center">
           <div className="services-column col-lg-5 col-lg-offset-1 col-md-10 offset-md-1 col-xs-10 !p-0">
-            <video src="/assets/videos/side.mp4" autoPlay muted loop alt="" />
+            <img src="/assets/images/side.png" alt="" />
           </div>
           <div className="service-img-wrapper flex justify-center col-lg-6 col-md-12 col-sm-12">
             <div className="">
               <img
-                autoPlay
-                loop
-                muted
                 src={img}
                 className="w-4/5 mx-auto object-contain"
                 alt=""
