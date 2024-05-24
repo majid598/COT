@@ -21,7 +21,7 @@ let HomeDemo1 = () => {
       <div className="HomeDemo1">
         <div className="w-full h-screen fixed top-0 left-0">
           <video
-            src="/assets/videos/video1.mp4"
+            src="/assets/videos/bg.mp4"
             autoPlay
             loop
             muted

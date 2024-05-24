@@ -13,7 +13,7 @@ const SecOurFeatures = ({ data, img, Rings }) => {
       </div>
       <div className="container-fluid">
         <div className="row items-center">
-          <div className="services-column col-lg-5 col-lg-offset-1 col-md-10 offset-md-1 col-xs-10 offset-xs-1">
+          <div className="lg:w-1/2 md:w-1/2 w-full">
             <img src="/assets/images/laser.png" alt="" />
           </div>
           <div className="service-img-wrapper flex justify-center col-lg-6 col-md-12 col-sm-12">

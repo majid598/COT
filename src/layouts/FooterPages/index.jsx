@@ -41,10 +41,18 @@ const Footer = () => {
             <nav className="list-none mb-10">
               <li className="my-1">
                 <a
-                  href="https://twitter.com/COTRWAA"
+                  href="#"
                   className="text-[#de357a]"
                 >
-                  Twitter
+                  Terms of Use 
+                </a>
+              </li>
+              <li className="my-1">
+                <a
+                  href="#"
+                  className="text-[#de357a]"
+                >
+                  Privacy Policy
                 </a>
               </li>
               <li className="my-1">
@@ -61,7 +69,7 @@ const Footer = () => {
       </div>
       <div className="">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          <p className="text-sm text-center sm:text-left">
+          {/* <p className="text-sm text-center sm:text-left">
             © {new Date().getFullYear()} COT —
             <a
               href="https://twitter.com/knyttneve"
@@ -71,7 +79,7 @@ const Footer = () => {
             >
               @cot
             </a>
-          </p>
+          </p> */}
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
             <a
               href="https://twitter.com/COTRWAA"
