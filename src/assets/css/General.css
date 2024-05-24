@@ -142,10 +142,7 @@ ol {
     z-index: 99999;
     top: 0;
     left: 0;
-    background: #4834d4;
-    background: -webkit-linear-gradient(to right, #4834d4, #341f97);
-    background: -webkit-linear-gradient(left, #4834d4, #341f97);
-    background: linear-gradient(to right, #4834d4, #341f97);
+    background-color: #de357a;
 }
 
 .preload-content {
@@ -164,7 +161,7 @@ ol {
     border: 3px;
     border-style: solid;
     border-color: transparent;
-    border-top-color: #de357a;
+    border-top-color: white;
     -webkit-animation: dreamrotate 2400ms linear infinite;
     animation: dreamrotate 2400ms linear infinite;
     z-index: 999;
@@ -181,7 +178,7 @@ ol {
     border: 3px;
     border-style: solid;
     border-color: transparent;
-    border-top-color: #de357a;
+    border-top-color: white;
     -webkit-animation: dreamrotate 2700ms linear infinite;
     animation: dreamrotate 2700ms linear infinite
 }
@@ -197,7 +194,7 @@ ol {
     border: 3px;
     border-style: solid;
     border-color: transparent;
-    border-top-color: #de357a;
+    border-top-color: white;
     -webkit-animation: dreamrotate 1800ms linear infinite;
     animation: dreamrotate 1800ms linear infinite
 }
