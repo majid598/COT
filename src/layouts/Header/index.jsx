@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 
-
 import { Addshrink, OpenMenu, addActiveClass, moveSmooth } from "../../utils/";
 
 import "./header.css";
@@ -32,7 +31,11 @@ const Header = () => {
               id="dreamNav"
             >
               <Link className="nav-brand !h-full" to="#">
-                <img src={"/assets/images/COT-01.png"} className="!h-full" alt="logo" />
+                <img
+                  src={"/assets/images/COT-01.png"}
+                  className="!h-full"
+                  alt="logo"
+                />
               </Link>
               <div className="classy-navbar-toggler">
                 <span className="navbarToggler" onClick={addActiveClass}>
@@ -57,33 +60,26 @@ const Header = () => {
                     </li>
                     <li>
                       <a onClick={moveSmooth} href="#about">
-                      IAO Portal
+                        IAO Portal
                       </a>
                     </li>
                     <li>
                       <a onClick={moveSmooth} href="#services">
-                      DEX
+                        DEX
                       </a>
                     </li>
                     <li>
                       <a onClick={moveSmooth} href="#roadmap">
-                      Asset Owners' Portal
+                        Asset Owners' Portal
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/COTRWAA">
-                      Twitter 
-                      </a>
+                      <a href="https://twitter.com/COTRWAA">Twitter</a>
                     </li>
                     <li>
-                      <a href="https://t.me/+r_3Vkn8YeCZjOWNl">
-                      Telegram 
-                      </a>
+                      <a href="https://t.me/+r_3Vkn8YeCZjOWNl">Telegram</a>
                     </li>
                   </ul>
-                  <a href="#" className="btn login-btn ml-50">
-                    Log in
-                  </a>
                 </div>
               </div>
             </nav>

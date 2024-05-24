@@ -24,7 +24,7 @@ function PreloaderContainer(){
 	        </Helmet>
 		    <div id="preloader">
 		        <div className="preload-content">
-		            <div id="dream-load"></div>
+		            <div id="dream-load" className="!text-red-500"></div>
 		        </div>
 		    </div>
 	    </>

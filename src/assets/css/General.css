@@ -164,7 +164,7 @@ ol {
     border: 3px;
     border-style: solid;
     border-color: transparent;
-    border-top-color: rgba(255, 255, 255, 0.5);
+    border-top-color: #de357a;
     -webkit-animation: dreamrotate 2400ms linear infinite;
     animation: dreamrotate 2400ms linear infinite;
     z-index: 999;
@@ -181,7 +181,7 @@ ol {
     border: 3px;
     border-style: solid;
     border-color: transparent;
-    border-top-color: rgba(255, 255, 255, 0.5);
+    border-top-color: #de357a;
     -webkit-animation: dreamrotate 2700ms linear infinite;
     animation: dreamrotate 2700ms linear infinite
 }
@@ -197,7 +197,7 @@ ol {
     border: 3px;
     border-style: solid;
     border-color: transparent;
-    border-top-color: rgba(255, 255, 255, 0.5);
+    border-top-color: #de357a;
     -webkit-animation: dreamrotate 1800ms linear infinite;
     animation: dreamrotate 1800ms linear infinite
 }

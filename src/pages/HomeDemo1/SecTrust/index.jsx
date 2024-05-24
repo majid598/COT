@@ -21,18 +21,18 @@ const SecTrust = ({ data }) => {
           financial legend.
         </p>
 
-        <div className="mx-auto flex gap-4 justify-center text-center dream-btn-group mt-8">
+        <div className="mx-auto flex gap-4 lg:flex-row md:flex-row sm:flex-row flex-col items-center justify-center px--4 w-full text-center dream-btn-group mt-8">
           <a
-            href="/"
-            className="text-white mr-4 lg:!px-8 lg:!py-3 md:!px-4 md:!py-3 !px-4 !py-2 !bg-[#DE357A] !border-[#DE357A] block w-max lg:rounded-md md:rounded-md rounded-sm transition-all duration-200 hover:scale-95"
+            href="https://cot.asia/iao"
+            className="text-white lg:!px-8 lg:!py-3 md:!px-4 md:!py-3 !px-4 !py-2 lg:w-auto md:w-auto sm:w-auto w-full !bg-[#DE357A] !border-[#DE357A] block lg:rounded-md md:rounded-md rounded-sm transition-all duration-200 hover:scale-95"
           >
-            Explore
+            Our Offered Assets
           </a>
           <a
-            href="/"
-            className="text-white mr-4 lg:!px-8 lg:!py-3 md:!px-4 md:!py-3 !px-4 !py-2 !bg-[#DE357A] !border-[#DE357A] block w-max lg:rounded-md md:rounded-md rounded-sm transition-all duration-200 hover:scale-95"
+            href="https://cot.asia/asset"
+            className="text-white lg:!px-8 lg:!py-3 md:!px-4 md:!py-3 !px-4 !py-2 lg:w-auto md:w-auto sm:w-auto w-full !bg-[#DE357A] !border-[#DE357A] block lg:rounded-md md:rounded-md rounded-sm transition-all duration-200 hover:scale-95"
           >
-            Read More
+            Become an Asset Owner
           </a>
         </div>
       </div>
