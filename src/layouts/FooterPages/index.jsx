@@ -21,7 +21,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="my-1">
-                <a href="/" className="text-[#de357a]">
+                <a href="https://cot.asia/iao" className="text-[#de357a]">
                   IAO Portal
                 </a>
               </li>
@@ -31,7 +31,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="my-1">
-                <a href="/" className="text-[#de357a]">
+                <a href="https://cot.asia/asset" className="text-[#de357a]">
                   Asset Owners' Portal
                 </a>
               </li>
@@ -41,7 +41,7 @@ const Footer = () => {
             <nav className="list-none mb-10">
               <li className="my-1">
                 <a
-                  href="#"
+                  href="https://nr9mx8metr.larksuite.com/docx/DrIfdoEwMoMG50x9mJ4uEuzWsgz?from=from_copylink"
                   className="text-[#de357a]"
                 >
                   Terms of Use 
@@ -49,7 +49,7 @@ const Footer = () => {
               </li>
               <li className="my-1">
                 <a
-                  href="#"
+                  href="https://nr9mx8metr.larksuite.com/docx/E6XHdkwlhoHKWNx60PPuG3Fiszh?from=from_copylink"
                   className="text-[#de357a]"
                 >
                   Privacy Policy

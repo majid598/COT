@@ -54,22 +54,22 @@ const Header = () => {
                 <div className="classynav">
                   <ul id="nav">
                     <li>
-                      <a onClick={moveSmooth} href="#home">
+                      <a href="/">
                         Home
                       </a>
                     </li>
                     <li>
-                      <a onClick={moveSmooth} href="#about">
+                      <a href="https://cot.asia/iao">
                         IAO Portal
                       </a>
                     </li>
                     <li>
-                      <a onClick={moveSmooth} href="#services">
+                      <a href="#services">
                         DEX
                       </a>
                     </li>
                     <li>
-                      <a onClick={moveSmooth} href="#roadmap">
+                      <a href="https://cot.asia/asset">
                         Asset Owners' Portal
                       </a>
                     </li>
