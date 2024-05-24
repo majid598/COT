@@ -2,7 +2,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="text-gray-200 body-font relative z-10">
+    <footer className="text-[#de357a] bg-white body-font relative z-10">
       <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <a
@@ -16,22 +16,22 @@ const Footer = () => {
           <div className="lg:w-1/2 w-full px-4">
             <nav className="list-none mb-10">
               <li className="my-1">
-                <a href="/" className="text-gray-200 hover:text-gray-300">
+                <a href="/" className="text-[#de357a]">
                   Home
                 </a>
               </li>
               <li className="my-1">
-                <a href="/" className="text-gray-200 hover:text-gray-300">
+                <a href="/" className="text-[#de357a]">
                   IAO Portal
                 </a>
               </li>
               <li className="my-1">
-                <a href="/" className="text-gray-200 hover:text-gray-300">
+                <a href="/" className="text-[#de357a]">
                   DEX{" "}
                 </a>
               </li>
               <li className="my-1">
-                <a href="/" className="text-gray-200 hover:text-gray-300">
+                <a href="/" className="text-[#de357a]">
                   Asset Owners' Portal
                 </a>
               </li>
@@ -42,7 +42,7 @@ const Footer = () => {
               <li className="my-1">
                 <a
                   href="https://twitter.com/COTRWAA"
-                  className="text-gray-200 hover:text-gray-300"
+                  className="text-[#de357a]"
                 >
                   Twitter
                 </a>
@@ -50,7 +50,7 @@ const Footer = () => {
               <li className="my-1">
                 <a
                   href="https://t.me/+r_3Vkn8YeCZjOWNl"
-                  className="text-gray-200 hover:text-gray-300"
+                  className="text-[#de357a]"
                 >
                   Telegram
                 </a>

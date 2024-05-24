@@ -22,8 +22,17 @@ const SecOurRoadmap = ({ data }) => {
         id="roadmap"
       >
         <div className="container">
-          <div className="px-8">
-            <img src="/assets/images/image.png" alt="" />
+          <div className="">
+            <img
+              src="/assets/images/image.png"
+              className="lg:block md:block sm:block hidden"
+              alt=""
+            />
+            <img
+              src="/assets/images/tower.png"
+              className="lg:hidden md:hidden sm:hidden block"
+              alt=""
+            />
           </div>
           <div className="mt-12 lg:px-32 md:px-24 px-10 py-8 text-white text-center">
             <h1 className="lg:text-4xl md:text-3xl text-2xl">
