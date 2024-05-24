@@ -7,9 +7,9 @@ const Footer = () => {
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <a
             href="/"
-            className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+            className="flex items-start md:justify-start justify-center"
           >
-            <img alt="" src="/assets/images/COT-01.png" />{" "}
+            <img alt="" src="/assets/images/foot.svg" className="w-1/2" />{" "}
           </a>
         </div>
         <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:!text-left !text-center">
@@ -57,6 +57,14 @@ const Footer = () => {
               </li>
               <li className="my-1">
                 <a
+                  href="https://twitter.com/COTRWAA"
+                  className="text-[#de357a]"
+                >
+                  Twitter
+                </a>
+              </li>
+              <li className="my-1">
+                <a
                   href="https://t.me/+r_3Vkn8YeCZjOWNl"
                   className="text-[#de357a]"
                 >
@@ -65,38 +73,6 @@ const Footer = () => {
               </li>
             </nav>
           </div>
-        </div>
-      </div>
-      <div className="">
-        <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          {/* <p className="text-sm text-center sm:text-left">
-            © {new Date().getFullYear()} COT —
-            <a
-              href="https://twitter.com/knyttneve"
-              rel="noopener noreferrer"
-              className="text-gray-200 ml-1"
-              target="_blank"
-            >
-              @cot
-            </a>
-          </p> */}
-          <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-            <a
-              href="https://twitter.com/COTRWAA"
-              className="ml-3 text-gray-500"
-            >
-              <svg
-                fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                className="w-5 h-5"
-                viewBox="0 0 24 24"
-              >
-                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-              </svg>
-            </a>
-          </span>
         </div>
       </div>
     </footer>
