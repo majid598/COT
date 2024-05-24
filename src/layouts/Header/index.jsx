@@ -64,7 +64,7 @@ const Header = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#services">
+                      <a href="https://cot.asia/exchange">
                         DEX
                       </a>
                     </li>

@@ -26,7 +26,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="my-1">
-                <a href="/" className="text-[#de357a]">
+                <a href="https://cot.asia/exchange" className="text-[#de357a]">
                   DEX{" "}
                 </a>
               </li>
